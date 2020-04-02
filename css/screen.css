@@ -1,0 +1,636 @@
+
+/* For small screen: */
+@media only screen and (min-width: 320px) and (max-width: 700px) {
+     .content-right {
+      position: relative;
+      margin: 0 auto;
+      left: -3%;
+      width: 80%;
+      padding: 0 100px;
+    }
+    .content-left {
+      margin-left: 10vw;
+      width: 100%;
+      border-bottom: 0px;
+    }
+    .scrollbar {
+      width: 100%;
+    }
+    .content-left-2 {
+      margin-top: 0px;
+    }
+    .content-title {
+      font-size: 40px;
+      text-align: left;
+      margin-left: 15%;
+    }
+    .subtitle-1 {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+    .subtitle-2 {
+      font-size: 15px;
+    }
+    .content {
+      font-size: 18px;
+    }
+    .herstory {
+      font-size: 45px;
+      line-height: 0.95;
+      margin-bottom: 10px;
+    }
+    .button {
+      position: relative;
+      width: 60px;
+      height: 60px;
+    }
+    #credit{
+      width: 100%;
+    }
+    .menu {
+      padding-top: 0px;
+    }
+    .credit-content {
+      text-align: center;
+      width: 50%;
+      height: 33.333%;
+      padding: 8px 0 0 0;
+      font-size: 12px;
+      border-bottom: #444444 solid 1.8px;
+    }
+    .bold {
+      font-size: 12px;
+      margin-bottom: 0px;
+    }
+    .dot-nav {
+      opacity: 0;
+    }
+    .b-nav {
+      background-color: black;
+      opacity: 0.9;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      margin-top: 0px;
+    }
+    .b-nav ul {
+      margin-top: 15vh;
+      margin-left: 35%;
+    }
+    .b-nav li {
+      margin: 30px 0px;
+    }
+    .b-link {
+      font-size: 18px;
+      opacity: 1;
+    }
+    .b-link:hover {
+      font-size: 18px;
+      border-left: #f2f2f2 solid 0.5px;
+      padding-left: 8px;
+    }
+    .dot-nav {
+      right: 0px;
+    }
+    .content-chart-1, .content-chart-2 {
+      opacity: 0;
+    }
+    .content-left-2:hover .content-bg {
+      background-color: rgba(0,0,0,0);
+      border-radius: 0px;
+      padding: 0px;
+    }
+    .video-container {
+      width: 84vw;
+      height: 56vw;
+    }
+}
+
+/* For tablets screen */
+@media only screen and (min-width: 701px) and (max-width: 800px) {
+    .slide-mask, .slide {
+      height: 1000px;
+    }
+    .content-right {
+      position: relative;
+      margin: 0 auto;
+      left: 0%;
+      width: 80%;
+      padding: 0 100px;
+    }
+    .content-left {
+      margin-left: 5vw;
+      width: 86vw;
+    }
+    .scrollbar {
+      width: 300px;
+    }
+    .content-left-2 {
+      margin-top: 0px;
+      padding-right: 0;
+    }
+    .content-chart-1 {
+      margin-left: 0px;
+      margin-top: 100px;
+    }
+    .content-chart-2 {
+      margin-left: 0px;
+      margin-top: 30px;
+    }
+    .age-1 {
+      width: 200px;
+    }
+    .age-2 {
+      width: 200px;
+    }
+    .content-title {
+      font-size: 40px;
+    }
+    .subtitle-1 {
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+    .subtitle-2 {
+      font-size: 16px;
+    }
+    .content {
+      font-size: 18px;
+    }
+    .herstory {
+      font-size: 65px;
+      line-height: 0.9;
+      margin-bottom: 15px;
+    }
+    .button {
+      position: relative;
+      width: 60px;
+      height: 60px;
+    }
+    #credit{
+      width: 100%;
+    }
+    .menu {
+      padding-top: 0px;
+    }
+    .credit-content {
+      text-align: center;
+      width: 50%;
+      height: 33.333%;
+      padding: 8px 0 0 0;
+      font-size: 12px;
+      border-bottom: #444444 solid 1.8px;
+    }
+    .bold {
+      font-size: 12px;
+      margin-bottom: 0px;
+    }
+    .dot-nav {
+      opacity: 0;
+    }
+    .b-nav {
+      background-color: black;
+      opacity: 0.9;
+      height: 100%;
+      width: 100%;
+      left: 0px;
+      margin-top: 0px;
+    }
+    .b-nav ul {
+      margin-top: 15vh;
+      margin-left: 35%;
+    }
+    .b-nav li {
+      margin: 30px 0px;
+    }
+    .b-link {
+      font-size: 22px;
+      opacity: 1;
+    }
+    .b-link:hover {
+      font-size: 22px;
+      border-left: #f2f2f2 solid 0.5px;
+      padding-left: 8px;
+    }
+    .video-container {
+      width: 84vw;
+      height: 56vw;
+    }
+}
+
+/* For small desktop & tabletslandscape screen: */
+@media only screen and (min-width: 800px) and (max-width: 1024px){
+    .content-right {
+      position: relative;
+      margin: 0 auto;
+      left: 0%;
+      width: 100%;
+      padding: 0 100px;
+    }
+    .content-left {
+      margin-left: 10vw;
+      width: 80vw;
+    }
+    .content-left-2 {
+      margin-top: 200px;
+      padding-right: 0;
+    }
+    .scrollbar {
+      width: 300px;
+    }
+    .content-chart-1 {
+      margin-left: 0px;
+      margin-top: 100px;
+    }
+    .content-chart-2 {
+      margin-left: 0px;
+      margin-top: 30px;
+    }
+    .age-1 {
+      width: 220px;
+    }
+    .age-2 {
+      width: 220px;
+    }
+    .content-title {
+      font-size: 50px;
+    }
+    .subtitle-1 {
+      font-size: 50px;
+    }
+    .subtitle-2 {
+      font-size: 18px;
+    }
+    .content {
+      font-size: 18px;
+    }
+    .herstory {
+      font-size: 70px;
+      line-height: 0.9;
+      margin-bottom: 18px;
+    }
+    .credit-content {
+      font-size: 14px;
+      padding: 30px 15px 30px 20px;
+    }
+    .bold {
+      font-size: 14px;
+    }
+    .b-nav {
+      background-color: black;
+      opacity: 0.9;
+      height: 100%;
+      width: 100%;
+      left: 0px;
+      margin-top: 0px;
+    }
+    .b-nav ul {
+      margin-top: 100px;
+      margin-left: 19%;
+      width: 75%;
+    }
+    .b-nav li {
+      margin: 50px 0px;
+      border-bottom: #444444 solid 1.8px;
+    }
+    .b-link {
+      float: left;
+      font-size: 28px;
+      opacity: 1;
+      width: 28%;
+    }
+    .b-link:hover {
+      font-size: 28px;
+      border-left: #f2f2f2 solid 0.5px;
+      padding-left: 8px;
+    }
+    .dot-nav {
+      opacity: 0;
+    }
+}
+
+/* For latop: */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .b-nav {
+      background-color: rgba(0,0,0,0.6);
+      height: 100%;
+      width: 13%;
+      left: 0px;
+      margin-top: 0px;
+    }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 1441px) and (max-width: 1700px) {
+    .content-right {
+      position: relative;
+      margin: 0 auto;
+      left: 15%;
+      width: 100%
+    }
+    .content-left {
+      padding-bottom: 100px;
+    }
+    .scrollbar {
+      width: 430px;
+    }
+    .content-left-2 {
+      margin-top: 350px;
+      padding-bottom: 15px;
+    }
+    .content-title {
+      font-size: 50px;
+      margin-bottom: 40px;
+    }
+    .subtitle-1 {
+      font-size: 60px;
+      margin-bottom: 60px;
+      line-height: 1.1;
+    }
+    .subtitle-2 {
+      font-size: 22px;
+    }
+    .herstory {
+      font-size: 90px;
+      line-height: 0.9;
+      margin-bottom: 24px;
+    }
+    .content {
+      font-size: 20px;
+    }
+    .b-link {
+      font-size: 20px;
+    }
+    .b-link:hover {
+      font-size: 21px;
+    }
+    .dot-nav {
+      right: 60px;
+    }
+    .dot-nav--item {
+      width: 15px;
+      margin: 15px 0px;
+    }
+    .credit-content {
+      padding: 15px 15px 20px 40px;
+      font-size: 18px;
+    }
+    .bold {
+      font-size: 18px;
+      margin-bottom: 17px;
+    }
+    .age-1 {
+      width: 300px;
+    }
+    .age-2 {
+      width: 300px;
+    }
+}
+
+/* For big desktop: */
+@media only screen and (min-width: 1701px) and (max-width: 2200px) {
+    .content-right {
+      position: relative;
+      margin: 0 auto;
+      left: 12%;
+      width: 100%;
+    }
+    .content-left {
+      padding-bottom: 120px;
+    }
+    .scrollbar {
+      width: 400px;
+    }
+    .content-left-2 {
+      margin-top: 380px;
+      padding-bottom: 20px;
+    }
+    .content-title {
+      font-size: 70px;
+      margin-top: 100px;
+    }
+    .subtitle-1 {
+      font-size: 60px;
+      line-height: 1.2;
+      margin-bottom: 60px;
+    }
+    .subtitle-2 {
+      font-size: 25px;
+    }
+    .herstory {
+      font-size: 95px;
+      line-height: 0.9;
+      margin-bottom: 25px;
+    }
+    .content {
+      font-size: 22px;
+    }
+    .b-link {
+      font-size: 23px;
+    }
+    .b-link:hover {
+      font-size: 24px;
+    }
+    .b-menu {
+      height: 55px;
+      padding-left: 13.5px;
+      padding-top: 13.5px;
+      width: 60px;
+    }
+    .b-bun--top {
+      top: 0;
+      width: 30px;
+    }
+    .b-bun--mid {
+      top: 11px;
+      width: 30px;
+    }
+    .b-bun--bottom {
+      top: 22px;
+      width: 30px;
+    }
+    .b-container.open .b-bun--top {
+      top: 12px;
+    }
+    .b-container.open .b-bun--bottom {
+      top: 10px;
+    }
+    #button {
+      height: 55px;
+      width: 300px;
+      border-radius: 45px;
+      border: 2px solid #d8d8d8;
+      margin-bottom: 10px;
+      margin-top: 20px;
+    }
+    .bold {
+      font-size: 23px;
+    }
+    .dot-nav {
+      right: 80px;
+    }
+    .dot-nav--item {
+      width: 15px;
+      margin: 15px 0px;
+    }
+    .chart {
+      top: -380px;
+      height:300px;
+      width: 300px;
+    }
+    .chart-2 {
+      top: -380px;
+      height:300px;
+      width: 300px;
+    }
+    .chart-in {
+      left: 13px;
+      top: -670px;
+      height:275px;
+      width: 275px;
+    }
+    .age-1 {
+      left: 150px;
+      top: -60px;
+      width: 350px;
+    }
+    .age-2 {
+      left: 150px;
+      top: -368px;
+      width: 350px;
+    }
+    .button {
+      width: 70px;
+      height: 70px;
+    }
+    .credit-content {
+      padding: 15px 15px 20px 50px;
+      font-size: 20px;
+    }
+    .bold {
+      font-size: 20px;
+      margin-bottom: 17px;
+    }
+}
+
+/* For super big desktop: */
+@media only screen and (min-width: 2201px) {
+    .content-right {
+      position: relative;
+      margin: 0 auto;
+      left: 12%;
+      width: 100%;
+    }
+    .content-left {
+      padding-bottom: 150px;
+    }
+    .scrollbar {
+      width: 600px;
+    }
+    .content-left-2 {
+      margin-top: 480px;
+      padding-bottom: 35px;
+    }
+    .content-title {
+      font-size: 70px;
+      margin-top: 100px;
+    }
+    .subtitle-1 {
+      font-size: 70px;
+      line-height: 1.2;
+      margin-bottom: 100px;
+    }
+    .subtitle-2 {
+      font-size: 30px;
+    }
+    .herstory {
+      font-size: 110px;
+      line-height: 0.9;
+      margin-bottom: 35px;
+    }
+    .content {
+      font-size: 24px;
+    }
+    .b-link {
+      font-size: 23px;
+    }
+    .b-link:hover {
+      font-size: 24px;
+    }
+    .b-menu {
+      height: 55px;
+      padding-left: 13.5px;
+      padding-top: 13.5px;
+      width: 60px;
+    }
+    .b-bun--top {
+      top: 0;
+      width: 30px;
+    }
+    .b-bun--mid {
+      top: 11px;
+      width: 30px;
+    }
+    .b-bun--bottom {
+      top: 22px;
+      width: 30px;
+    }
+    .b-container.open .b-bun--top {
+      top: 12px;
+    }
+    .b-container.open .b-bun--bottom {
+      top: 10px;
+    }
+    #button {
+      height: 55px;
+      width: 300px;
+      border-radius: 45px;
+      border: 2px solid #d8d8d8;
+      margin-bottom: 10px;
+      margin-top: 20px;
+    }
+    .dot-nav {
+      right: 100px;
+    }
+    .dot-nav--item {
+      width: 15px;
+      margin: 15px 0px;
+    }
+    .chart {
+      top: -380px;
+      height:300px;
+      width: 300px;
+    }
+    .chart-2 {
+      top: -380px;
+      height:300px;
+      width: 300px;
+    }
+    .chart-in {
+      left: 13px;
+      top: -670px;
+      height:275px;
+      width: 275px;
+    }
+    .age-1 {
+      left: 150px;
+      top: -60px;
+      width: 450px;
+    }
+    .age-2 {
+      left: 150px;
+      top: -368px;
+      width: 450px;
+    }
+    .button {
+      width: 70px;
+      height: 70px;
+    }
+    .credit-content {
+      padding: 5px 15px 20px 55px;
+      font-size: 22px;
+    }
+    .bold {
+      font-size: 22px;
+      margin-bottom: 17px;
+    }
+}

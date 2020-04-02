@@ -1,0 +1,115 @@
+.content-chart-1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+.content-chart-2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.age-1 {
+  position: relative;
+  left: 110px;
+  top: -90px;
+  border-bottom: 1px solid #d8d8d8;
+  text-align: right;
+  line-height: 1.3;
+  padding-bottom: 7px;
+  width: 220px;
+}
+.age-2 {
+  position: relative;
+  left: 110px;
+  top: -259px;
+  border-bottom: 1px solid white;
+  text-align: right;
+  line-height: 1.3;
+  padding-bottom: 7px;
+  width: 220px;
+}
+.chart-2 {
+  position: relative;
+  top: -270px;
+  background: transparent;
+  background-image: linear-gradient(to right, transparent 50%, #c1c1c1 0);
+  border-radius: 50%;
+  height:225px;
+  width: 225px;
+  z-index: 999;
+  transform: rotate(55deg);
+  -ms-transform: rotate(55deg); /* IE 9 */
+  -webkit-transform: rotate(55deg);  /* Chrome, Safari, Opera */
+  transition: 1s;
+}
+.chart {
+  position: relative;
+  top: -270px;
+  background: transparent;
+  background-image: linear-gradient(to right, transparent 50%, #c1c1c1 0);
+  border-radius: 50%;
+  height:225px;
+  width: 225px;
+  z-index: 999;
+  transform: rotate(27deg);
+  -ms-transform: rotate(27deg); /* IE 9 */
+  -webkit-transform: rotate(27deg); /* Safari */
+  transition: 1s;
+}
+.chart-2:hover {
+  transform: rotate(75deg);
+  -ms-transform: rotate(75deg);/* IE 9 */
+  -webkit-transform: rotate(75deg); /* Safari */
+}
+.chart:hover {
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);/* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari */
+}
+
+.chart-2:before {
+  background: #c1c1c1;
+  border-radius: 0 100% 100% 0 / 50%;
+  content: '';
+  display: block;
+  height: 100%;
+  margin: 0 0 0 50%;
+  transform: rotate(0.2turn);
+  -ms-transform: rotate(0.2turn);/* IE 9 */
+  -webkit-transform: rotate(0.2turn); /* Safari */
+  transform-origin: left;
+  -ms-transform-origin: left; /* IE 9 */
+  -webkit-transform-origin: left; /* Chrome, Safari, Opera */
+}
+.chart:before {
+  background: #c1c1c1;
+  border-radius: 0 100% 100% 0 / 50%;
+  content: '';
+  display: block;
+  height: 100%;
+  margin: 0 0 0 50%;
+  transform: rotate(0.35turn);
+  -ms-transform: rotate(0.35turn);/* IE 9 */
+  -webkit-transform: rotate(0.35turn); /* Safari */
+  transform-origin: left;
+  -ms-transform-origin: left; /* IE 9 */
+  -webkit-transform-origin: left; /* Chrome, Safari, Opera */
+}
+.chart-in {
+  position: relative;
+  left: 18px;
+  top: -485px;
+  background: white;
+  border-radius: 50%;
+  height:190px;
+  width: 190px;
+}
+.chart-in:before {
+  content: '';
+  display: block;
+  height: 100%;
+}
